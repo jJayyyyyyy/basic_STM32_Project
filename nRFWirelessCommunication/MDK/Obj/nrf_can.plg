@@ -1,0 +1,4106 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Projects&Lib\_nrf_can\Version-0.2\MDK\nrf_can.uvproj
+Project File Date:  12/06/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling stm32f10x_spi.c...
+linking...
+Program Size: Code=7220 RO-data=368 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling spi.c...
+..\User\spi.c(18): error:  #20: identifier "SPI_BaudRate_Prescaler_8" is undefined
+..\User\spi.c(24): warning:  #1-D: last line of file ends without a newline
+..\User\spi.c(5): warning:  #550-D: variable "SPI_InitStructure" was set but never used
+Target not created
+Build target 'Target 1'
+compiling spi.c...
+..\User\spi.c(5): warning:  #550-D: variable "SPI_InitStructure" was set but never used
+linking...
+Program Size: Code=7220 RO-data=368 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling rcc_gpio.c...
+compiling spi.c...
+linking...
+Program Size: Code=7264 RO-data=368 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=7280 RO-data=368 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling rcc_gpio.c...
+compiling spi.c...
+..\User\spi.h(1): warning:  #1295-D: Deprecated declaration SPI_Configuration - give arg types
+linking...
+Program Size: Code=7100 RO-data=368 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(10): error:  #20: identifier "BufferSize" is undefined
+..\User\main.c(54): warning:  #223-D: function "SPI_Configuration" declared implicitly
+..\User\main.c(62): warning:  #223-D: function "SPI_I2S_GetFlagStatus" declared implicitly
+..\User\main.c(62): error:  #20: identifier "SPI_I2S_FLAG_TXE" is undefined
+..\User\main.c(64): warning:  #223-D: function "SPI_I2S_SendData" declared implicitly
+..\User\main.c(69): error:  #20: identifier "SPI_I2S_FLAG_RXNE" is undefined
+..\User\main.c(71): warning:  #223-D: function "SPI_I2S_ReceiveData" declared implicitly
+..\User\main.c(42): warning:  #177-D: variable "i" was declared but never referenced
+..\User\main.c(42): warning:  #177-D: variable "j" was declared but never referenced
+compiling spi.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(11): error:  #17: expected a "]"
+..\User\main.c(11): error:  #169: expected a declaration
+..\User\main.c(14): error:  #17: expected a "]"
+..\User\main.c(14): error:  #169: expected a declaration
+..\User\main.c(18): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\main.c(19): error:  #17: expected a "]"
+..\User\main.c(19): error:  #169: expected a declaration
+..\User\main.c(23): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\main.c(55): warning:  #223-D: function "SPI_Configuration" declared implicitly
+..\User\main.c(60): error:  #18: expected a ")"
+..\User\main.c(63): warning:  #223-D: function "SPI_I2S_GetFlagStatus" declared implicitly
+..\User\main.c(63): error:  #20: identifier "SPI_I2S_FLAG_TXE" is undefined
+..\User\main.c(65): warning:  #223-D: function "SPI_I2S_SendData" declared implicitly
+..\User\main.c(70): error:  #20: identifier "SPI_I2S_FLAG_RXNE" is undefined
+..\User\main.c(72): error:  #20: identifier "SPI2_Buffer_Rx" is undefined
+..\User\main.c(72): warning:  #223-D: function "SPI_I2S_ReceiveData" declared implicitly
+..\User\main.c(43): warning:  #177-D: variable "i" was declared but never referenced
+..\User\main.c(43): warning:  #177-D: variable "j" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(55): warning:  #223-D: function "SPI_Configuration" declared implicitly
+..\User\main.c(63): warning:  #223-D: function "SPI_I2S_GetFlagStatus" declared implicitly
+..\User\main.c(63): error:  #20: identifier "SPI_I2S_FLAG_TXE" is undefined
+..\User\main.c(65): warning:  #223-D: function "SPI_I2S_SendData" declared implicitly
+..\User\main.c(70): error:  #20: identifier "SPI_I2S_FLAG_RXNE" is undefined
+..\User\main.c(72): warning:  #223-D: function "SPI_I2S_ReceiveData" declared implicitly
+..\User\main.c(43): warning:  #177-D: variable "i" was declared but never referenced
+..\User\main.c(43): warning:  #177-D: variable "j" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(64): warning:  #223-D: function "SPI_I2S_GetFlagStatus" declared implicitly
+..\User\main.c(64): error:  #20: identifier "SPI_I2S_FLAG_TXE" is undefined
+..\User\main.c(66): warning:  #223-D: function "SPI_I2S_SendData" declared implicitly
+..\User\main.c(71): error:  #20: identifier "SPI_I2S_FLAG_RXNE" is undefined
+..\User\main.c(73): warning:  #223-D: function "SPI_I2S_ReceiveData" declared implicitly
+..\User\main.c(44): warning:  #177-D: variable "i" was declared but never referenced
+..\User\main.c(44): warning:  #177-D: variable "j" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(45): warning:  #177-D: variable "i" was declared but never referenced
+..\User\main.c(45): warning:  #177-D: variable "j" was declared but never referenced
+linking...
+Program Size: Code=8060 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling spi.c...
+linking...
+Program Size: Code=8060 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(45): warning:  #177-D: variable "i" was declared but never referenced
+..\User\main.c(45): warning:  #177-D: variable "j" was declared but never referenced
+linking...
+Program Size: Code=8060 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(91): error:  #20: identifier "SPIz_Buffer_Rx" is undefined
+..\User\main.c(91): error:  #20: identifier "SPIy_Buffer_Tx" is undefined
+..\User\main.c(47): warning:  #177-D: variable "i" was declared but never referenced
+..\User\main.c(47): warning:  #177-D: variable "j" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(47): warning:  #177-D: variable "i" was declared but never referenced
+..\User\main.c(47): warning:  #177-D: variable "j" was declared but never referenced
+linking...
+Program Size: Code=8124 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8124 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8124 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(28): error:  #20: identifier "TestStatus" is undefined
+error type>(28): error:  #20: identifier "FAILED" is undefined
+error type>(29): error:  #20: identifier "TestStatus" is undefined
+error type>(32): error:  #20: identifier "TestStatus" is undefined
+..\User\main.c(75): error:  #20: identifier "SPI2_Buffer_Tx" is undefined
+..\User\main.c(79): error:  #20: identifier "SPI1_Buffer_Tx" is undefined
+..\User\main.c(85): error:  #20: identifier "SPI2_Buffer_Rx" is undefined
+..\User\main.c(89): error:  #20: identifier "SPI1_Buffer_Rx" is undefined
+..\User\main.c(96): error:  #20: identifier "SPI2_Buffer_Rx" is undefined
+..\User\main.c(96): error:  #20: identifier "SPI1_Buffer_Tx" is undefined
+..\User\main.c(157): error:  #20: identifier "TestStatus" is undefined
+..\User\main.c(170): error:  #20: identifier "PASSED" is undefined
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(78): error:  #20: identifier "SPI2_Buffer_Tx" is undefined
+..\User\main.c(82): error:  #20: identifier "SPI1_Buffer_Tx" is undefined
+..\User\main.c(88): error:  #20: identifier "SPI2_Buffer_Rx" is undefined
+..\User\main.c(92): error:  #20: identifier "SPI1_Buffer_Rx" is undefined
+..\User\main.c(99): error:  #20: identifier "SPI2_Buffer_Rx" is undefined
+..\User\main.c(99): error:  #20: identifier "SPI1_Buffer_Tx" is undefined
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8124 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(87): error:  #20: identifier "SPI2_Buffer_Rx" is undefined
+..\User\main.c(91): error:  #20: identifier "SPI1_Buffer_Rx" is undefined
+..\User\main.c(98): error:  #20: identifier "SPI2_Buffer_Rx" is undefined
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8124 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=8124 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling delay.c...
+compiling key.c...
+compiling led.c...
+compiling rcc_gpio.c...
+compiling stm32f10x_it.c...
+compiling tim.c...
+compiling usart.c...
+compiling spi.c...
+compiling misc.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_spi.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+assembling startup_stm32f10x_cl.s...
+linking...
+Program Size: Code=8124 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8128 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8112 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.345V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8112 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.423V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8112 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.655V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8156 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+compiling delay.c...
+compiling key.c...
+compiling led.c...
+compiling rcc_gpio.c...
+compiling stm32f10x_it.c...
+compiling tim.c...
+compiling usart.c...
+compiling spi.c...
+compiling misc.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_spi.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+assembling startup_stm32f10x_cl.s...
+linking...
+Program Size: Code=8156 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.474V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8156 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.520V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8144 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.455V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8144 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.384V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8156 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.435V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8156 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.384V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8140 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.397V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8132 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.429V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8052 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.429V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8044 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.435V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8132 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.429V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8112 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.461V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8068 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.545V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8112 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.500V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8120 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.423V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8120 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.474V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8128 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.461V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=7124 RO-data=368 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.655V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8136 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.655V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8120 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling tim.c...
+linking...
+Program Size: Code=8120 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling tim.c...
+linking...
+Program Size: Code=8120 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.655V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.655V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling tim.c...
+linking...
+Program Size: Code=8120 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.655V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling tim.c...
+linking...
+Program Size: Code=8096 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling tim.c...
+linking...
+Program Size: Code=8088 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+compiling tim.c...
+linking...
+Program Size: Code=8124 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8072 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8096 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8096 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8120 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8116 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8096 RO-data=368 RW-data=132 ZI-data=1700  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=7076 RO-data=368 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=7076 RO-data=368 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=7076 RO-data=368 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling rcc_gpio.c...
+compiling spi.c...
+..\User\spi.c(67): error:  #20: identifier "SPI_WIRELESS" is undefined
+Target not created
+Build target 'Target 1'
+compiling spi.c...
+linking...
+Program Size: Code=7076 RO-data=368 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling nRF24L01.c...
+..\User\nRF24L01.c(11): error:  #20: identifier "TX_ADR_WIDTH" is undefined
+..\User\nRF24L01.c(12): error:  #20: identifier "RX_ADR_WIDTH" is undefined
+..\User\nRF24L01.c(17): error:  #20: identifier "RCC_NRF24L01_CE" is undefined
+..\User\nRF24L01.c(18): error:  #20: identifier "NRF24L01_CE" is undefined
+..\User\nRF24L01.c(21): error:  #20: identifier "GPIO_NRF24L01_CE" is undefined
+..\User\nRF24L01.c(23): error:  #20: identifier "RCC_NRF24L01_CSN" is undefined
+..\User\nRF24L01.c(24): error:  #20: identifier "NRF24L01_CSN" is undefined
+..\User\nRF24L01.c(27): error:  #20: identifier "GPIO_NRF24L01_CSN" is undefined
+..\User\nRF24L01.c(29): error:  #20: identifier "Set_NRF24L01_CE" is undefined
+..\User\nRF24L01.c(30): error:  #20: identifier "Set_NRF24L01_CSN" is undefined
+..\User\nRF24L01.c(33): error:  #20: identifier "NRF24L01_IRQ" is undefined
+..\User\nRF24L01.c(36): error:  #20: identifier "GPIO_NRF24L01_IRQ" is undefined
+..\User\nRF24L01.c(39): warning:  #223-D: function "WIRELESS_SPI_Init" declared implicitly
+..\User\nRF24L01.c(40): error:  #20: identifier "Clr_NRF24L01_CE" is undefined
+..\User\nRF24L01.c(51): warning:  #223-D: function "NRF24L01_Write_Buf" declared implicitly
+..\User\nRF24L01.c(51): error:  #20: identifier "SPI_WRITE_REG" is undefined
+..\User\nRF24L01.c(51): error:  #20: identifier "TX_ADDR" is undefined
+..\User\nRF24L01.c(52): warning:  #223-D: function "NRF24L01_Read_Buf" declared implicitly
+..\User\nRF24L01.c(61): error:  #20: identifier "Clr_NRF24L01_CSN" is undefined
+..\User\nRF24L01.c(64): error:  #20: identifier "Set_NRF24L01_CSN" is undefined
+..\User\nRF24L01.c(71): error:  #20: identifier "Clr_NRF24L01_CSN" is undefined
+..\User\nRF24L01.c(74): error:  #20: identifier "Set_NRF24L01_CSN" is undefined
+..\User\nRF24L01.c(80): error:  #159: declaration is incompatible with previous "NRF24L01_Read_Buf" (declared at line 52)
+..\User\nRF24L01.c(83): error:  #20: identifier "Clr_NRF24L01_CSN" is undefined
+..\User\nRF24L01.c(86): error:  #20: identifier "Set_NRF24L01_CSN" is undefined
+..\User\nRF24L01.c(92): error:  #159: declaration is incompatible with previous "NRF24L01_Write_Buf" (declared at line 51)
+..\User\nRF24L01.c(95): error:  #20: identifier "Clr_NRF24L01_CSN" is undefined
+..\User\nRF24L01.c(98): error:  #20: identifier "Set_NRF24L01_CSN" is undefined
+..\User\nRF24L01.c(107): error:  #20: identifier "Clr_NRF24L01_CE" is undefined
+..\User\nRF24L01.c(108): error:  #20: identifier "WR_TX_PLOAD" is undefined
+..\User\nRF24L01.c(108): error:  #20: identifier "TX_PLOAD_WIDTH" is undefined
+..\User\nRF24L01.c(109): error:  #20: identifier "Set_NRF24L01_CE" is undefined
+..\User\nRF24L01.c(110): error:  #20: identifier "READ_NRF24L01_IRQ" is undefined
+Target not created
+Build target 'Target 1'
+compiling key.c...
+..\User\delay.h(1): error:  #20: identifier "__IO" is undefined
+..\User\delay.h(1): error:  #18: expected a ")"
+..\User\key.c(6): warning:  #223-D: function "GPIO_ReadInputDataBit" declared implicitly
+..\User\key.c(6): error:  #20: identifier "GPIOC" is undefined
+..\User\key.c(6): error:  #20: identifier "GPIO_Pin_6" is undefined
+..\User\key.c(11): error:  #20: identifier "GPIO_Pin_7" is undefined
+..\User\key.c(16): error:  #20: identifier "GPIO_Pin_8" is undefined
+..\User\key.c(21): error:  #20: identifier "GPIO_Pin_9" is undefined
+Target not created
+Build target 'Target 1'
+compiling key.c...
+linking...
+Program Size: Code=7076 RO-data=368 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling key.c...
+..\User\delay.h(1): error:  #20: identifier "__IO" is undefined
+..\User\delay.h(1): error:  #18: expected a ")"
+..\User\key.c(6): warning:  #223-D: function "GPIO_ReadInputDataBit" declared implicitly
+..\User\key.c(6): error:  #20: identifier "GPIOC" is undefined
+..\User\key.c(6): error:  #20: identifier "GPIO_Pin_6" is undefined
+..\User\key.c(11): error:  #20: identifier "GPIO_Pin_7" is undefined
+..\User\key.c(16): error:  #20: identifier "GPIO_Pin_8" is undefined
+..\User\key.c(21): error:  #20: identifier "GPIO_Pin_9" is undefined
+Target not created
+Build target 'Target 1'
+compiling key.c...
+compiling nRF24L01.c...
+..\User\nRF24L01.c(37): warning:  #223-D: function "WIRELESS_SPI_Init" declared implicitly
+linking...
+.\Obj\nrf_can.axf: Error: L6218E: Undefined symbol WIRELESS_SPI_Init (referred from nrf24l01.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling nRF24L01.c...
+linking...
+Program Size: Code=7076 RO-data=368 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=7076 RO-data=368 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(33): warning:  #520-D: initialization with "{...}" expected for aggregate object
+..\User\main.c(33): warning:  #177-D: variable "tmp_buf" was declared but never referenced
+linking...
+Program Size: Code=8712 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(33): warning:  #520-D: initialization with "{...}" expected for aggregate object
+..\User\main.c(39): warning:  #223-D: function "printf" declared implicitly
+..\User\main.c(50): warning:  #223-D: function "Key_Value" declared implicitly
+..\User\main.c(56): warning:  #223-D: function "printf" declared implicitly
+..\User\main.c(60): warning:  #223-D: function "printf" declared implicitly
+..\User\main.c(66): warning:  #223-D: function "One_LED_ON" declared implicitly
+linking...
+.\Obj\nrf_can.axf: Error: L6218E: Undefined symbol Key_Value (referred from main.o).
+.\Obj\nrf_can.axf: Error: L6218E: Undefined symbol One_LED_ON (referred from main.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(33): warning:  #520-D: initialization with "{...}" expected for aggregate object
+..\User\main.c(39): warning:  #223-D: function "printf" declared implicitly
+..\User\main.c(50): warning:  #223-D: function "Key_Value" declared implicitly
+..\User\main.c(56): warning:  #223-D: function "printf" declared implicitly
+..\User\main.c(60): warning:  #223-D: function "printf" declared implicitly
+compiling key.c...
+linking...
+.\Obj\nrf_can.axf: Error: L6218E: Undefined symbol Key_Value (referred from main.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(33): warning:  #520-D: initialization with "{...}" expected for aggregate object
+..\User\main.c(39): warning:  #223-D: function "printf" declared implicitly
+..\User\main.c(56): warning:  #223-D: function "printf" declared implicitly
+..\User\main.c(60): warning:  #223-D: function "printf" declared implicitly
+linking...
+Program Size: Code=11892 RO-data=392 RW-data=76 ZI-data=1876  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(39): warning:  #223-D: function "printf" declared implicitly
+..\User\main.c(56): warning:  #223-D: function "printf" declared implicitly
+..\User\main.c(60): warning:  #223-D: function "printf" declared implicitly
+linking...
+Program Size: Code=11892 RO-data=392 RW-data=76 ZI-data=1876  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8944 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=8944 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling delay.c...
+compiling key.c...
+compiling led.c...
+compiling rcc_gpio.c...
+compiling stm32f10x_it.c...
+compiling tim.c...
+compiling usart.c...
+compiling spi.c...
+compiling nRF24L01.c...
+compiling misc.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_spi.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+assembling startup_stm32f10x_cl.s...
+linking...
+Program Size: Code=8944 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.520V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+compiling nRF24L01.c...
+linking...
+Program Size: Code=8944 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling nRF24L01.c...
+linking...
+Program Size: Code=8944 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling stm32f10x_it.c...
+compiling nRF24L01.c...
+linking...
+Program Size: Code=8916 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8916 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8916 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8924 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling spi.c...
+linking...
+Program Size: Code=8924 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=8924 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling nRF24L01.c...
+..\User\nRF24L01.c(36): error:  #20: identifier "LED4_ON" is undefined
+Target not created
+Build target 'Target 1'
+compiling nRF24L01.c...
+linking...
+Program Size: Code=8936 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+compiling nRF24L01.c...
+linking...
+Program Size: Code=8932 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8936 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8944 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8936 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8944 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.655V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8940 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+compiling nRF24L01.c...
+linking...
+Program Size: Code=8924 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8932 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8932 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8952 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(17): warning:  #520-D: initialization with "{...}" expected for aggregate object
+linking...
+Program Size: Code=8952 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(15): warning:  #520-D: initialization with "{...}" expected for aggregate object
+linking...
+Program Size: Code=8916 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(15): warning:  #520-D: initialization with "{...}" expected for aggregate object
+linking...
+Program Size: Code=8952 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(15): warning:  #520-D: initialization with "{...}" expected for aggregate object
+compiling spi.c...
+..\User\spi.c(39): warning:  #550-D: variable "retry" was set but never used
+linking...
+Program Size: Code=8528 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling spi.c...
+..\User\spi.c(39): warning:  #550-D: variable "retry" was set but never used
+compiling nRF24L01.c...
+linking...
+Program Size: Code=8528 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling spi.c...
+linking...
+Program Size: Code=8556 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(15): warning:  #520-D: initialization with "{...}" expected for aggregate object
+linking...
+Program Size: Code=8596 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.655V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(15): warning:  #520-D: initialization with "{...}" expected for aggregate object
+..\User\main.c(72): warning:  #223-D: function "SPI_Configuration" declared implicitly
+compiling spi.c...
+compiling nRF24L01.c...
+linking...
+.\Obj\nrf_can.axf: Error: L6218E: Undefined symbol SPI_Configuration (referred from main.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(15): warning:  #520-D: initialization with "{...}" expected for aggregate object
+compiling nRF24L01.c...
+linking...
+Program Size: Code=8664 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling nRF24L01.c...
+linking...
+Program Size: Code=8660 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling nRF24L01.c...
+linking...
+Program Size: Code=8664 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(15): warning:  #520-D: initialization with "{...}" expected for aggregate object
+..\User\main.c(73): error:  #29: expected an expression
+..\User\main.c(73): error:  #140: too many arguments in function call
+compiling nRF24L01.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(15): warning:  #520-D: initialization with "{...}" expected for aggregate object
+linking...
+Program Size: Code=8664 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(15): warning:  #520-D: initialization with "{...}" expected for aggregate object
+..\User\main.c(54): warning:  #223-D: function "One_LED_ON" declared implicitly
+linking...
+.\Obj\nrf_can.axf: Error: L6218E: Undefined symbol One_LED_ON (referred from main.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(15): warning:  #520-D: initialization with "{...}" expected for aggregate object
+linking...
+Program Size: Code=8664 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(15): warning:  #520-D: initialization with "{...}" expected for aggregate object
+compiling spi.c...
+compiling nRF24L01.c...
+linking...
+Program Size: Code=8596 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling spi.c...
+linking...
+Program Size: Code=8604 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=8604 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling spi.c...
+..\User\spi.c(33): error:  #20: identifier "SPI_WIRELESS" is undefined
+Target not created
+Build target 'Target 1'
+compiling rcc_gpio.c...
+compiling spi.c...
+linking...
+Program Size: Code=8604 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8604 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling rcc_gpio.c...
+linking...
+Program Size: Code=8604 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling nRF24L01.c...
+linking...
+Program Size: Code=8604 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling rcc_gpio.c...
+compiling spi.c...
+linking...
+Program Size: Code=8596 RO-data=380 RW-data=60 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(15): warning:  #520-D: initialization with "{...}" expected for aggregate object
+compiling led.c...
+linking...
+Program Size: Code=9176 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=9176 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling spi.c...
+compiling nRF24L01.c...
+linking...
+Program Size: Code=9176 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.655V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling led.c...
+compiling spi.c...
+linking...
+Program Size: Code=9176 RO-data=380 RW-data=64 ZI-data=1632  
+FromELF: creating hex file...
+".\Obj\nrf_can.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Projects&Lib\\_nrf_can\\Version-0.2\\MDK\\Obj\\nrf_can.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "D:\Projects&Lib\_nrf_can\Version-0.2\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 19850127 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.649V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
