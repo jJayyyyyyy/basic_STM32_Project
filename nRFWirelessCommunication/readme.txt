@@ -1,7 +1,7 @@
 /* 基于nRF24L01与STM32的无线通信
  * 版本 v0.2
  * by 楼基颉
- * MDK v4.22打开会乱码，需要npp之类的文本编辑器打开
+ * readme使用UTF-8，MDK v4.22因为使用ANSI，在工程中打开readme会乱码，需要npp之类的文本编辑器打开
 */
 
 0. STM32f107VCT6
