@@ -12,8 +12,8 @@
 
 
 0. STM32f107VCT6
-	晶振25M
-	通过分频器与锁相环，使系统时钟为72M		
+	晶振25MHz
+	通过分频器与倍频器，使系统时钟为72MHz
 	注：	STM32F10X_CL代表的是使用了
 			STM32互联系列微处理器(芯片选型 STM32F10x Connectivity Line Flash, 256k)
 			也就是STM32F105和STM32F107系列处理器
