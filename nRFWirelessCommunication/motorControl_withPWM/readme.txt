@@ -1,3 +1,11 @@
+/*
+ * This is the v0.3 of nRFWirelessCommunication Project.
+ * In <motorControl_withPWM> you can use your STM32 and nRF24L01 to control your little toy car using 
+ * 	gear-motor(some kind of DC-motor).
+ * Use PWM to control its direction and speed.
+*/
+
+
 /* 基于nRF24L01与STM32的无线通信
  * 版本 v0.3
  * by 楼基颉
