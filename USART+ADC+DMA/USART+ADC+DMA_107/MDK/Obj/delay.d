@@ -1,0 +1,15 @@
+.\Obj\delay.o: ..\User\delay.c
+.\Obj\delay.o: ..\Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\Obj\delay.o: ..\Lib\CMSIS\CM3\CoreSupport\core_cm3.h
+.\Obj\delay.o: D:\software\keil\ARM\RV31\INC\stdint.h
+.\Obj\delay.o: ..\Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\Obj\delay.o: ..\User\stm32f10x_conf.h
+.\Obj\delay.o: ..\Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h
+.\Obj\delay.o: ..\Lib\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\Obj\delay.o: ..\Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+.\Obj\delay.o: ..\Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\Obj\delay.o: ..\Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\Obj\delay.o: ..\Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+.\Obj\delay.o: ..\Lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+.\Obj\delay.o: ..\Lib\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\Obj\delay.o: ..\User\delay.h
